@@ -1,5 +1,4 @@
-
-import Homepage from "./Components/Hompage/Homepage.js";
+import Homepage from "./Components/Hompage/HomePage.jsx";
 
 function App() {
   return (
