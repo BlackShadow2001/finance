@@ -1,4 +1,5 @@
 {
+  "homepage": "http://BlackShadow2001.github.io/finance",
   "name": "finance",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +13,9 @@
   },
   "scripts": {
     "start": "r3f-pack start",
-    "build": "r3f-pack build"
+    "build": "r3f-pack build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
